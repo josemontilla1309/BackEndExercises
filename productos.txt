@@ -1,0 +1,23 @@
+[
+        {id: 1;
+	 name: "Zapatillas",
+         price: "150$",
+	 thumbnail: "",
+        },
+        {id: 2;
+	 name: "Sudadera",
+	 price: "75$",
+          thumbnail: "",
+        },
+        {id: 3;
+	 name: "Zapatillas",
+	 price: "130$",
+          thumbnail: "",
+         
+        },
+        {id: 4;
+	name: "Chaqueta",
+         price: "30$",
+	 thumbnail: "",
+        }
+      ]
