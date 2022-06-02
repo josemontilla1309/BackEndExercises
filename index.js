@@ -38,6 +38,11 @@ app.put("/api/productos/:id", (req, res) => {
 }), 
 
 app.delete("/api/productos/:id", (req, res) => {
+    const id = parseInt(res.params.id) -1;
+    const productosArray = productos.split("");
+
+    idBorrado = productosArray.splice(id, 1);
+    res.status(200).send(idBorrado);
 
 }), 
 
